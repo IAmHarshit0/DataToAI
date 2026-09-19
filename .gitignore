@@ -1,0 +1,9 @@
+.github
+.vscode
+Deployment/Streamlit/streamlit-learn/.git
+Deployment/Streamlit/streamlit-learn/.venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+Data/WebScraping/chromedriver.exe

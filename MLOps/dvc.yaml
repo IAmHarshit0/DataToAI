@@ -1,0 +1,20 @@
+# sample
+
+stages:
+  first:
+    cmd: python loc.py
+    deps:
+      data
+      loc.py
+    outs:
+      new_data
+
+  second:
+    cmd: python loc1.py
+    deps: 
+      new_data
+      loc1.py
+    metrics:
+      metric.json
+
+      
